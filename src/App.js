@@ -1,22 +1,20 @@
-import './css/style.css';
-
-import nineGagImage from './assets/img/9gag.svg'; 
-import adorable_animals from './assets/img/adorable_animals.svg';
-import bad_vibes_memes from './assets/img/bad.vibes.memes.svg';
-import barked from './assets/img/barked.svg';
-import catanacomics from './assets/img/catanacomics.svg';
-import chibirdart from './assets/img/chibirdart.svg';
-import dog from './assets/img/dog.svg';
-import filomoderna from './assets/img/filomoderna.svg';
-import gato_telefone from './assets/img/gato-telefone.svg';
-import logo from './assets/img/logo.png';
-import memeriagourmet from './assets/img/memeriagourmet.svg';
-import meowed from './assets/img/meowed.svg';
-import nathanwpylestrangeplanet from './assets/img/nathanwpylestrangeplanet.svg';
-import razoesparaacreditar from './assets/img/razoesparaacreditar.svg';
-import respondeai from './assets/img/respondeai.svg';
-import smallcutecats from './assets/img/smallcutecats.svg';
-import wawawicomics from './assets/img/wawawicomics.svg';
+const nineGagImage = '/assets/img/9gag.svg'; 
+const adorable_animals = '/assets/img/adorable_animals.svg';
+const bad_vibes_memes = '/assets/img/bad.vibes.memes.svg';
+const barked = '/assets/img/barked.svg';
+const catanacomics = '/assets/img/catanacomics.svg';
+const chibirdart = '/assets/img/chibirdart.svg';
+const dog = '/assets/img/dog.svg';
+const filomoderna = '/assets/img/filomoderna.svg';
+const gato_telefone = '/assets/img/gato-telefone.svg';
+const logo = '/assets/img/logo.png';
+const memeriagourmet = '/assets/img/memeriagourmet.svg';
+const meowed = '/assets/img/meowed.svg';
+const nathanwpylestrangeplanet = '/assets/img/nathanwpylestrangeplanet.svg';
+const razoesparaacreditar = '/assets/img/razoesparaacreditar.svg';
+const respondeai = '/assets/img/respondeai.svg';
+const smallcutecats = '/assets/img/smallcutecats.svg';
+const wawawicomics = '/assets/img/wawawicomics.svg';
 
 
 <img src={barked} alt="barked" />
