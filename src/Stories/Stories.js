@@ -15,8 +15,8 @@ function Stories() {
 
   return (
     <div className="stories">
-      {stories.map((story, index) => (
-        <Story key={index} imgSrc={story.imgSrc} username={story.username} />
+      {stories.map((story) => (
+        <Story key={story.username} imgSrc={story.imgSrc} username={story.username} />
       ))}
       <div className="setinha">
         <ion-icon name="chevron-forward-circle"></ion-icon>

@@ -1,6 +1,12 @@
-import React from 'react';
+import React, { useState } from 'react';
 
 function Post({ username, userImg, postImg, likedBy, likesCount }) {
+  const [isSaved, setIsSaved] = useState(false);
+
+  const handleSavePost = () => {
+    setIsSaved(!isSaved);
+  };
+
   return (
     <div className="post">
       <div className="topo">
@@ -25,7 +31,10 @@ function Post({ username, userImg, postImg, likedBy, likesCount }) {
             <ion-icon name="paper-plane-outline"></ion-icon>
           </div>
           <div>
-            <ion-icon name="bookmark-outline"></ion-icon>
+            <ion-icon
+              name={isSaved ? "bookmark" : "bookmark-outline"}
+              onClick={handleSavePost}
+            ></ion-icon>
           </div>
         </div>
 

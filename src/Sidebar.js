@@ -5,7 +5,7 @@ import Suggestions from './Suggestions/Suggestions';
 function Sidebar() {
   return (
     <div className="sidebar">
-      <User imgSrc="/assets/img/catanacomics.svg" username="catanacomics" />
+      <User imgSrc="/assets/img/catanacomics.svg" initialUsername="catanacomics" />
       <Suggestions />
       <div className="links">
         Sobre • Ajuda • Imprensa • API • Carreiras • Privacidade • Termos • Localizações • Contas mais relevantes •
