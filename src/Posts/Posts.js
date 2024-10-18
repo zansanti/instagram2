@@ -8,21 +8,21 @@ function Posts() {
       userImg: '/assets/img/meowed.svg',
       postImg: '/assets/img/gato-telefone.svg',
       likedBy: 'respondeai',
-      likesCount: 101523,
+      initialLikesCount: 101523,
     },
     {
       username: 'barked',
       userImg: '/assets/img/barked.svg',
       postImg: '/assets/img/dog.svg',
       likedBy: 'adorable_animals',
-      likesCount: 99159,
+      initialLikesCount: 99159,
     },
     {
         username: 'meowed',
         userImg: '/assets/img/meowed.svg',
         postImg: '/assets/img/gato-telefone.svg',
         likedBy: 'respondeai',
-        likesCount: 101523,
+        initialLikesCount: 101523,
     },
   ];
 
